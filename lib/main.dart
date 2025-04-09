@@ -10,14 +10,14 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: '1Card',
-      home: DashboardPage(),
+      home: HomePage(),
       debugShowCheckedModeBanner: false,
     );
   }
 }
 
-class DashboardPage extends StatelessWidget {
-  const DashboardPage({super.key});
+class HomePage extends StatelessWidget {
+  const HomePage({super.key});
   @override
   Widget build(BuildContext context) {
     return Scaffold(
